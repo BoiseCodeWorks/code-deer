@@ -1,9 +1,29 @@
 .birds-eye {
     background-image: url("https://www.originalcab.com/assets/images/100_0884.JPG");
     height: 40vh;
-  background-position: center;
-  background-size: cover;
-  color: white;
   align-items: center;
+}
+
+.article{
+    background-image: url("//placehold.it/200x300");
+    min-height: 200px;
+    justify-content: flex-end;
+  flex-direction: column;
+}
+
+.content-card{
+    background-position: center;
+  background-size: cover;
   display: flex;
+  color: white;
+}
+
+.article p{
+    color: yellow;
+}
+.list{
+    background-image: url("//placehold.it/300x900");
+}
+.list ul{
+    list-style: none;
 }
